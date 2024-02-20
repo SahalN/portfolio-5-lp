@@ -8,8 +8,8 @@ export const raleway = Raleway({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
-export const ibmPlexMono = IBM_Plex_Mono({
+export const ibmplexmono = IBM_Plex_Mono({
   subsets: ["latin"],
   variable: "--font-ibmplexmono",
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  weight: "400",
 });
