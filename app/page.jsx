@@ -63,7 +63,7 @@ export default function LandingPage() {
           </h1>
         </div>
         <div className='px-[9.19rem]'>
-          <p className='text-[#9C9C9C]'>
+          <p className='text-[#9C9C9C] bg-black '>
             Solving user & business problems since last 15+ years.Lorem ipsum
             dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua.{" "}
