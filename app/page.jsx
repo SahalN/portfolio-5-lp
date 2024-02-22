@@ -63,44 +63,97 @@ export default function LandingPage() {
           </h1>
         </div>
         <div className='px-[9.19rem]'>
-          <p className='text-[#9C9C9C] bg-black '>
+          <p className='text-[#9C9C9C] pt-[0.62rem] pb-[3.75rem] '>
             Solving user & business problems since last 15+ years.Lorem ipsum
             dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua.{" "}
           </p>
         </div>
-        <div>
-          <div>
-            <div>
-              <div></div>
+        <div className='grid grid-cols-2 gap-y-32'>
+          <div className='flex flex-cols '>
+            <div className='text-left '>
+              <div className='px-[0.63rem] py-[0.40rem] rounded-full bg-[#FFF6E9] max-w-max flex justify-center'>
+                <p className='text-[#FFA217]'>Fintech</p>
+              </div>
               <div>
-                <button></button>
+                <h1 className='pt-5 text-2xl font-extrabold font-raleway'>
+                  Work name here
+                </h1>
+              </div>
+              <div className='pb-12 pt-[0.62rem]'>
+                <p className='text-[#9C9C9C]'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  sed do eiusmod tempor incididunt ut labore et dolore magna.
+                </p>
+              </div>
+              <div>
+                <button className='bg-[#FFA217] px-6 py-[0.62rem] rounded-md text-white'>
+                  View case study
+                </button>
               </div>
             </div>
-            <div>
-              <img src='' alt='' />
+          </div>
+          <div className='flex justify-end flex-1'>
+            <img src='/images/pict-1.png' alt='' />
+          </div>
+          <div className='flex justify-start flex-1'>
+            <img src='/images/pict-2.png' alt='' />
+          </div>
+          <div className='flex flex-cols '>
+            <div className='text-left '>
+              <div className='px-[0.63rem] py-[0.40rem] rounded-full bg-[#FFF6E9] max-w-max flex justify-center'>
+                <p className='text-[#FFA217]'>Fintech</p>
+              </div>
+              <div>
+                <h1 className='pt-5 text-2xl font-extrabold font-raleway'>
+                  Work name here
+                </h1>
+              </div>
+              <div className='pb-12 pt-[0.62rem]'>
+                <p className='text-[#9C9C9C]'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  sed do eiusmod tempor incididunt ut labore et dolore magna.
+                </p>
+              </div>
+              <div>
+                <button className='bg-[#000AFF] px-6 py-[0.62rem] rounded-md text-white'>
+                  View case study
+                </button>
+              </div>
             </div>
           </div>
-          <div>
-            <div>
-              <img src='' alt='' />
-            </div>
-            <div>
-              <div></div>
-              <div></div>
+          <div className='flex flex-cols '>
+            <div className='text-left '>
+              <div className='px-[0.63rem] py-[0.40rem] rounded-full bg-[#FFF6E9] max-w-max flex justify-center'>
+                <p className='text-[#FFA217]'>Fintech</p>
+              </div>
+              <div>
+                <h1 className='pt-5 text-2xl font-extrabold font-raleway'>
+                  Work name here
+                </h1>
+              </div>
+              <div className='pb-12 pt-[0.62rem]'>
+                <p className='text-[#9C9C9C]'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  sed do eiusmod tempor incididunt ut labore et dolore magna.
+                </p>
+              </div>
+              <div>
+                <button className='bg-[#2AB090] px-6 py-[0.62rem] rounded-md text-white'>
+                  View case study
+                </button>
+              </div>
             </div>
           </div>
-          <div>
-            <div>
-              <div></div>
-              <div></div>
-            </div>
-            <div>
-              <img src='' alt='' />
-            </div>
+          <div className='flex justify-end flex-1'>
+            <img src='/images/pict-3.png' alt='' />
           </div>
         </div>
       </div>
+      {/*  */}
     </>
   );
 }
