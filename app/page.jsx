@@ -241,6 +241,119 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
+      {/*  */}
+      <div className='flex flex-col text-center px-[11.25rem] text-black py-20 bg-white'>
+        <div>
+          <h1 className='font-raleway font-extrabold text-[2.125rem]'>
+            Recent Work
+          </h1>
+        </div>
+        <div className='pt-[0.62rem] px-56 pb-20'>
+          <p className='text-[#9C9C9C] '>
+            Solving user & business problems since last 15+ years.Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.{" "}
+          </p>
+        </div>
+        <div className='flex flex-row text-left gap-x-12'>
+          <div className='flex-1'>
+            <div>
+              <img src='/images/img-1.png' alt='' className='w-full' />
+            </div>
+            <div className='pt-12'>
+              <h3 className='text-2xl font-extrabold font-raleway'>
+                Work name here
+              </h3>
+              <p className='pt-[1.25rem]'>
+                Labore et dolore magna aliqua. sed do eiusmod tempor incididunt
+                ut labore et dolore magna.
+              </p>
+            </div>
+            <div className='pt-[1.25rem] flex flex-row '>
+              <div>
+                <button className='bg-[#62BA1B] flex flex-row items-center gap-2 text-white px-[1.5rem] py-[0.62rem] rounded-md text-sm font-semibold'>
+                  Know more
+                  <img src='/images/ra.png' alt='' />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='flex-1'>
+            <div>
+              <img src='/images/img-2.png' alt='' className='w-full' />
+            </div>
+            <div className='pt-12'>
+              <h3 className='text-2xl font-extrabold font-raleway'>
+                Work name here
+              </h3>
+              <p className='pt-[1.25rem]'>
+                Labore et dolore magna aliqua. sed do eiusmod tempor incididunt
+                ut labore et dolore magna.
+              </p>
+            </div>
+            <div className='pt-[1.25rem] flex flex-row '>
+              <div>
+                <button className='bg-[#62BA1B] flex flex-row items-center gap-2 text-white px-[1.5rem] py-[0.62rem] rounded-md text-sm font-semibold'>
+                  Know more
+                  <img src='/images/ra.png' alt='' />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className='flex flex-col text-center px-[11.25rem] text-white py-20'>
+        <div>
+          <h1 className='font-extrabold font-raleway text-[2.124rem]'>
+            Get In Touch
+          </h1>
+        </div>
+        <div className='px-64 pb-10'>
+          <p className='text-[#9C9C9C] pt-[0.63rem] '>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+          </p>
+        </div>
+        <div className='flex flex-col justify-center px-96'>
+          <div className='flex flex-col pb-[1.37rem]'>
+            <label htmlFor='' className='flex justify-start'>
+              Email
+            </label>
+            <input
+              type='text'
+              placeholder='Please enter your email'
+              className='px-3 py-3 text-black rounded-sm'
+            />
+          </div>
+          <div className='flex flex-col pb-[1.37rem]'>
+            <label htmlFor='' className='flex justify-start'>
+              Mobile
+            </label>
+            <input
+              type='text'
+              placeholder='Enter mobile'
+              className='px-3 py-3 text-black rounded-sm'
+            />
+          </div>
+          <div className='flex flex-col pb-5'>
+            <label htmlFor='' className='flex justify-start '>
+              Message
+            </label>
+            <input
+              type='text'
+              placeholder='Enter your message'
+              className='px-3 pt-3 pb-[5.25rem] rounded-sm text-black'
+            />
+          </div>
+          <div>
+            <button className='bg-[#62BA1B] w-full py-4 text-sm font-semibold flex flex-row items-baseline justify-center gap-4'>
+              Submit
+              <img src='/images/ra.png' alt='' />
+            </button>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

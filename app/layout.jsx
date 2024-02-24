@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
           <Header />
         </header>
         <main className='grow bg-[#080808]'>{children}</main>
-        <footer className='px-[11.25rem]'>
+        <footer className='px-[11.25rem] bg-[#1B1B1B]'>
           <Footer />
         </footer>
       </body>
